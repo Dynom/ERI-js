@@ -97,11 +97,9 @@ const ERIClient = (function () {
 				}
 			));
 		})
-		.then(r => {
-			return Object.assign(skel, r.json());
-		})
+		.then(r => r.json())
 		.then(data => {
-			cb(data);
+			cb(Object.assign(skel, data));
 		})
 		.catch(reason => {
 			throw "error in callback"+ reason;
