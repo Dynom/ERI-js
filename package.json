@@ -1,0 +1,24 @@
+{
+  "name": "eri",
+  "version": "0.0.1",
+  "description": "ERIs companion. Intelligent e-mail address validation.",
+  "main": "eri-client.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Dynom/ERI-js.git"
+  },
+  "keywords": [
+    "email",
+    "spell",
+    "check",
+    "domains",
+    "validation",
+    "mx",
+    "eri"
+  ],
+  "author": "Mark van der Velden",
+  "license": "MIT"
+}
