@@ -1,5 +1,5 @@
 {
-  "name": "eri",
+  "name": "eri-js",
   "version": "0.0.1",
   "description": "ERIs companion. Intelligent e-mail address validation.",
   "main": "eri-client.js",
